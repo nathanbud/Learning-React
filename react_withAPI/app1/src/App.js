@@ -8,7 +8,7 @@ import JobList from './components/JobList'
 function App() {
 
   const [jobs, setJobs] = useState([]);
-  const [term, setterm] = useState('');
+  const [term, setTerm] = useState('');
 
   useEffect(() => {
     axios.get('https://api.codetabs.com/v1/proxy?quest=https://jobs.github.com/positions.json' )
