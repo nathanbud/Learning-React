@@ -6,7 +6,8 @@ import UseEffectExample from './components/effectUse'
 function App() {
   return (
     <div className="App">
-      {/* <Button/> */}
+      <Button/> 
+      <hr/>
       <UseEffectExample/>
     </div>
   );
